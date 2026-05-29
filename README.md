@@ -8,7 +8,7 @@ An AI-powered healthcare application that predicts whether a breast tumor is **B
 
 Add your Streamlit deployment link here:
 
-[Live Application](YOUR_STREAMLIT_LINK)
+[Live Application](https://breast-cancer-classification-bpfmvhv4waqtxp2c2knn8d.streamlit.app/)
 
 ---
 
