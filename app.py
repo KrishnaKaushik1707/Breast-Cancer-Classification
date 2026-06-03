@@ -377,8 +377,49 @@ st.set_page_config(
     page_title="Breast Cancer Prediction",
     page_icon="🩺",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
+
+st.markdown("""
+<style>
+
+/* Hide Streamlit Header */
+header[data-testid="stHeader"] {
+    display: none !important;
+}
+
+/* Hide Toolbar */
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+/* Hide Top Decoration */
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+/* Hide Main Menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Hide Footer */
+footer {
+    visibility: hidden;
+}
+
+/* Remove extra top space */
+.block-container {
+    padding-top: 0rem !important;
+}
+
+/* Hide Sidebar Collapse Button */
+[data-testid="collapsedControl"] {
+    display: none !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # Session state
